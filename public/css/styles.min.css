@@ -139,3 +139,31 @@ button:disabled {
   font-weight: 300;
   padding: 12px 24px 0;
 }
+
+@media(max-width: 767px) {
+  
+  .centered-form__box {
+    box-shadow: 0 0 17px 1px #1d1f26;
+    background: #f7f7fa;
+    padding: 24px;
+    width: 75%;
+    height: 75%;
+  }
+  .compose{
+    padding: 1rem 0.5rem 1rem;
+  }
+  .chat__sidebar{
+    width: 180px;
+  }
+  button{
+    font: .5rem;
+  }
+}
+
+@media(max-width: 399px){
+
+  .chat__sidebar{
+    width: 0;   /* not displaying the side bar  */
+  }
+  
+}
